@@ -1,4 +1,4 @@
-package org.example;
+package org.example.customer;
 
 import com.example.amqp.RabbitMQMessageProducer;
 import com.example.clients.fraud.fraud.FraudCheckResponse;

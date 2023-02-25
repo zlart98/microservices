@@ -1,2 +1,7 @@
-package org.example.fraud;public interface FraudCheckHistoryRepository {
+package org.example.fraud;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface FraudCheckHistoryRepository
+        extends JpaRepository<FraudCheckHistory, Integer> {
 }

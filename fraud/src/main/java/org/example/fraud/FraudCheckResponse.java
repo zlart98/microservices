@@ -1,2 +1,4 @@
-package org.example.fraud;public record FraudCheckResponse() {
+package org.example.fraud;
+
+public record FraudCheckResponse(Boolean isFraudster) {
 }

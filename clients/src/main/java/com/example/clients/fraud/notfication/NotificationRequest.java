@@ -1,2 +1,8 @@
-package com.example.clients.fraud.notfication;public class NotificationRequest {
+package com.example.clients.fraud.notfication;
+
+public record NotificationRequest(
+        Integer toCustomerId,
+        String toCustomerName,
+        String message
+) {
 }

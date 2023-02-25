@@ -1,0 +1,4 @@
+com/example/clients/fraud/notfication/NotificationRequest.class
+com/example/clients/fraud/notfication/NotificationClient.class
+com/example/clients/fraud/fraud/FraudCheckResponse.class
+com/example/clients/fraud/fraud/FraudClient.class

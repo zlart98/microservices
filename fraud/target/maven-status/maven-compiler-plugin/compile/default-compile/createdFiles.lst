@@ -1,0 +1,7 @@
+org/example/fraud/FraudCheckHistory.class
+org/example/fraud/FraudCheckHistory$FraudCheckHistoryBuilder.class
+org/example/fraud/FraudController.class
+org/example/fraud/FraudApplication.class
+org/example/fraud/FraudCheckHistoryRepository.class
+org/example/fraud/FraudCheckResponse.class
+org/example/fraud/FraudCheckService.class

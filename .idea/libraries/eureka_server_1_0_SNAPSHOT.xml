@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="eureka-server-1.0-SNAPSHOT">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

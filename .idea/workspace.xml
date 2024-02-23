@@ -1,79 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d035a12-bb3b-4531-9be8-24bcc08f7153" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/com/example/amqp/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/com/example/amqp/RabbitMQMessageProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/src/test/java/com/example/amqp/AmqpApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/clients/fraud/fraud/FraudCheckResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/clients/fraud/fraud/FraudClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/clients/fraud/notfication/NotificationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/example/clients/fraud/notfication/NotificationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/clients-default.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/FraudCheckResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudCheckHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudCheckHistoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudCheckResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudCheckService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/test/java/com/example/notification/NotificationApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+    <list default="true" id="4d035a12-bb3b-4531-9be8-24bcc08f7153" name="Default Changelist" comment="add git igmore">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/config/application-docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/config/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/amqp_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/clients_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/customer_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/eureka_server_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/fraud_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/maven_wrapper1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/src/main/java/com/example/amqp/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/src/main/java/org/example/amqp/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/src/main/java/com/example/amqp/RabbitMQMessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/src/main/java/org/example/amqp/RabbitMQMessageProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/src/test/java/com/example/amqp/AmqpApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/clients.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/example/clients/fraud/fraud/FraudCheckResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/fraud/FraudCheckResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/example/clients/fraud/fraud/FraudClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/fraud/FraudClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/example/clients/fraud/notfication/NotificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/notfication/NotificationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/example/clients/fraud/notfication/NotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/notfication/NotificationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/example/clients/fraud/fraud/FraudCheckResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/example/clients/fraud/fraud/FraudClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/example/clients/fraud/notfication/NotificationClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/com/example/clients/fraud/notfication/NotificationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/clients-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/clients-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/customer.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/CustomerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/CustomerRegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerRegistrationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/CustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/Customer$CustomerBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/CustomerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/CustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/CustomerRegistrationRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/customer/Customer$CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/org/example/customer/Customer$CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/customer/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/org/example/customer/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/customer/CustomerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/org/example/customer/CustomerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/customer/CustomerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/org/example/customer/CustomerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/customer/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/org/example/customer/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/customer/CustomerRegistrationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/org/example/customer/CustomerRegistrationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/customer/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/org/example/customer/CustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/customer/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/org/example/customer/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/org/example/customer/FraudCheckResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/org/example/customer/FraudCheckResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/customer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/customer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/org/example/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/com/example/eurekaserver/EurekaServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/fraud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudCheckHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudCheckHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/org/example/fraud/FraudController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckHistory$FraudCheckHistoryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckHistory$FraudCheckHistoryBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckHistoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckHistoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckService.class" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudCheckService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/org/example/fraud/FraudController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/fraud-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/fraud-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/example/notification/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/test/java/com/example/notification/NotificationApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,21 +125,207 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zlart98&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fbe27eee-4f6f-4bfc-a229-d163a3d3fec2" />
+        <option name="url" value="https://github.com/zlart98/microservices.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2MEwLhAyZQhnOewsJPjD4nSzhpm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CustomerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.customer [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.micro [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.microservices [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sladkijpirozok/IdeaProjects/microservices/fraud/config&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7da526fd9c4ceeaa1df6ac052edd015e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fraud/config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CustomerApplication">
+    <configuration name="CustomerApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.customer.CustomerApplication" />
+      <module name="customer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eurekaserver.EurekaServerApplication" />
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.customer.CustomerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.eurekaserver.EurekaServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FraudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="fraud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.fraud.FraudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.notification.NotificationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="eureka-server/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="eureka-server/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.CustomerApplication" />
+      <item itemvalue="Application.EurekaServerApplication" />
+      <item itemvalue="Docker.eureka-server/Dockerfile" />
+      <item itemvalue="Spring Boot.FraudApplication" />
+      <item itemvalue="Spring Boot.NotificationApplication" />
+      <item itemvalue="Spring Boot.CustomerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CustomerApplication" />
+        <item itemvalue="Docker.eureka-server/Dockerfile" />
+        <item itemvalue="Application.CustomerApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,10 +338,30 @@
       <workItem from="1677345997383" duration="48000" />
       <workItem from="1677346066475" duration="29000" />
       <workItem from="1677346151488" duration="168000" />
+      <workItem from="1708456823442" duration="550000" />
+      <workItem from="1708457385921" duration="14000" />
+      <workItem from="1708458299829" duration="3551000" />
+      <workItem from="1708462335853" duration="5260000" />
+      <workItem from="1708699605383" duration="326000" />
+      <workItem from="1708699945658" duration="109000" />
+      <workItem from="1708708566635" duration="116000" />
     </task>
+    <task id="LOCAL-00001" summary="add git igmore">
+      <option name="closed" value="true" />
+      <created>1708700861450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708700861450</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add git igmore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add git igmore" />
   </component>
 </project>

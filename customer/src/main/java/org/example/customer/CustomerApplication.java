@@ -14,11 +14,11 @@ import org.springframework.context.annotation.PropertySources;
 @SpringBootApplication(
         scanBasePackages = {
                 "org.example.customer",
-                "com.example.amqp",
+                "org.example.amqp",
         }
 )
 @EnableFeignClients(
-        basePackages = "com.example.clients"
+        basePackages = "org.example.clients"
 )
 @EnableEurekaClient
 @PropertySources({

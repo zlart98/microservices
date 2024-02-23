@@ -1,12 +1,11 @@
 package org.example.customer;
 
-import com.example.amqp.RabbitMQMessageProducer;
-import com.example.clients.fraud.fraud.FraudCheckResponse;
-import com.example.clients.fraud.fraud.FraudClient;
-import com.example.clients.fraud.notfication.NotificationRequest;
 import lombok.AllArgsConstructor;
+import org.example.amqp.RabbitMQMessageProducer;
+import org.example.clients.fraud.FraudCheckResponse;
+import org.example.clients.fraud.FraudClient;
+import org.example.clients.notfication.NotificationRequest;
 import org.springframework.stereotype.Service;
-
 
 @Service
 @AllArgsConstructor
@@ -29,17 +28,14 @@ public class CustomerService {
             throw new IllegalStateException("fraudster");
         }
 
-
         NotificationRequest notificationRequest = new NotificationRequest(
                 customer.getId(),
                 customer.getEmail(),
                 String.format("Hi %s, welcome to Amigoscode...",
-                        customer.getFirstName())
-        );
+                        customer.getFirstName()));
         rabbitMQMessageProducer.publish(
                 notificationRequest,
                 "internal.exchange",
-                "internal.notification.routing-key"
-        );
+                "internal.notification.routing-key");
     }
 }

@@ -1,19 +1,22 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>micro</artifactId>
+    <artifactId>microservices</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-
-    <name>micro</name>
     <modules>
-        <module>customer</module>
-        <module>fraud</module>
         <module>eureka-server</module>
         <module>clients</module>
+        <module>amqp</module>
+        <module>customer</module>
+        <module>fraud</module>
+        <module>notification</module>
     </modules>
+    <packaging>pom</packaging>
+    <name>microservices</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
